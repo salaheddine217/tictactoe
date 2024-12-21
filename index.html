@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="playButton">
+            <button onclick=gameboard.playGame()>Play</button> 
+        </div>
+        <div class="restartButton">
+            <button onclick="gameboard.restartGame();" >Restart</button>
+        </div>
+        <div class="results">
+            <div class="result1">0</div>
+            <div class="result2">0</div>
+        </div>
+        <div class="board">
+            <div class="case1" onclick=chooseCase(1)></div>
+            <div class="case2" onclick=chooseCase(2)></div>
+            <div class="case3" onclick=chooseCase(3)></div>
+            <div class="case4" onclick=chooseCase(4)></div>
+            <div class="case5" onclick=chooseCase(5)></div>
+            <div class="case6" onclick=chooseCase(6)></div>
+            <div class="case7" onclick=chooseCase(7)></div>
+            <div class="case8" onclick=chooseCase(8)></div>
+            <div class="case9" onclick=chooseCase(9)></div>
+        </div>
+    </div>
+
+    <div class="buttons"></div>
+    <script src="script.js"></script>
+</body>
+</html>
